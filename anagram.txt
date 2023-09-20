@@ -1,0 +1,9 @@
+a=input("enter any word:")
+b=input("enter any second owrd:")
+
+is_anagram=sorted(a)==sorted(b)
+if is_anagram:
+    print("yes, its anagram, it contains all the first word and second word same letters")
+else:
+    print("no, its not hvaing same letters")
+    
