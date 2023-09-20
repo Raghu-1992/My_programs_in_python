@@ -1,0 +1,5 @@
+list=[12,34,545,34,342,23,433]
+sum=0
+for i in list:
+    sum=sum+i
+print('sum ofb the list is', sum)  

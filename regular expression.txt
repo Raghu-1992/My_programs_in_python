@@ -1,0 +1,41 @@
+example 1
+import re
+text='India@1234'
+pattern=re.compile(r'\W')
+matches=pattern.finditer(text)
+for match in matches:
+    print(match)
+
+
+
+
+
+
+
+example 2
+import re
+text= '''
+232&7362)63 
+232*7362&63 
+23$27*362*63
+232%7(36%263
+rahsadh
+revbu
+vebuewufifhw
+fewbhfue'''
+pattern=re.compile(r'\d\d\d[*]\d\d\d\d[&]\d\d')
+matches=pattern.finditer(text)
+for match in matches:
+    print(match)
+                   
+
+
+
+
+. any character
+\d only digit
+\D not digit
+\w character
+\W not character
+\s white space
+\S not white space

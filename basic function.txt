@@ -1,0 +1,10 @@
+def add(a,b):
+    c=a+b
+    print(c)
+    
+def multiply(q,w):
+    d=q*w
+    print(d)
+
+add(4,5)
+multiply(7,6)

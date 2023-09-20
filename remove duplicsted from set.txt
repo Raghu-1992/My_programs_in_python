@@ -1,0 +1,4 @@
+string=input("Enter any string: ")
+string1=set(string)
+#string2="".join(string1)
+print(string1)

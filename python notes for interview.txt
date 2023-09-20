@@ -1,0 +1,119 @@
+LAMBDA TOPIC
+
+# n=int(input("enter thge number: "))
+# square = lambda x: x ** 2
+# print(square(n)) 
+
+add=lambda a,b: a+b
+print(add(1,2))
+
+LIST COMPREHENSION
+
+numbers = [1, 2, 3, 4, 5]
+squared_numbers = [x ** 2 for x in numbers]
+print(squared_numbers)  # Output: [1, 4, 9, 16, 25]
+
+
+squares = [x * x for x in range(1, 11)]
+
+print(squares)
+
+
+
+DICTIONARY COMPREHENSION
+
+numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+even_squared = {x: x ** 2 for x in numbers if x % 2 == 0}
+print(even_squared)  # Output: {2: 4, 4: 16, 6: 36, 8: 64, 10: 100}
+
+
+Decorators are a powerful tool in Python that allow us to modify the behavior of functions without changing the original function definition.
+
+
+palindrome in python 
+word = input("Enter a word: ")
+reversed_word = word[::-1]
+
+if word == reversed_word:
+    print(f"{word} is a palindrome.")
+else:
+    print(f"{word} is not a palindrome.")
+
+
+ARMSTRONG NUMBER 
+num = int(input("Enter a number: "))
+order = len(str(num))
+temp = num
+sum = 0
+
+while temp > 0:
+    digit = temp % 10
+    sum += digit ** order
+    temp //= 10
+
+if num == sum:
+    print(f"{num} is an Armstrong number.")
+else:
+    print(f"{num} is not an Armstrong number.")
+
+
+MIDDLE NUMBER IN STRING 
+word=input("ether the word you want t find middle letter: ")
+if len(word)%2==1:
+   if len(word)==1:
+     print("only one letter= ", word)
+   else:
+       x=int((len(word)-1)/2)
+       answer=word[x]
+       print("The middle letter of the give word is " , answer)
+else:
+   print("cant find middle value")
+
+
+TABLES 
+n=int(input("enter the value: "))
+for i in range(1,11):
+    print(n,"*",i,"=",n*i)
+
+
+
+DUPLICATES IN LIST 
+# Get a list of numbers from the user
+input_list = input("Enter a list of numbers separated by spaces: ").split()
+numbers = [int(num) for num in input_list]
+
+# Create an empty set to store duplicate numbers
+duplicate_set = set()
+unique_set = set()
+
+# Iterate through the numbers and check for duplicates
+for num in numbers:
+    if num in unique_set:
+        duplicate_set.add(num)
+    else:
+        unique_set.add(num)
+
+# Print the duplicate numbers
+if len(duplicate_set) > 0:
+    print("Duplicate numbers:", duplicate_set)
+else:
+    print("No duplicate numbers found.")
+
+
+find specific letter from list of place
+
+place=['america','india','antartica','japan','california']
+
+#output ['america','antartica','california']
+# output the palces having value 'ca'
+for i in place:
+    #print(i.find("ca"))
+    if i.find("ca")>-1:
+        print(i)
+
+
+
+
+
+
+

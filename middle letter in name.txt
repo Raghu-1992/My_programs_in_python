@@ -1,0 +1,10 @@
+word=input("ether the word you want t find middle letter: ")
+if len(word)%2==1:
+   if len(word)==1:
+     print("only one letter= ", word)
+   else:
+       x=int((len(word)-1)/2)
+       answer=word[x]
+       print("The middle letter of the give word is " , answer)
+else:
+   print("cant find middle value")

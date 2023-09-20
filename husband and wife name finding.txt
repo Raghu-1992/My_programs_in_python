@@ -1,0 +1,14 @@
+name=input('enter the name: ')
+
+if name=='Raghavendra':
+ print('husband of Revathi')
+elif name=='Arjun':
+ print('husband of Padmavathi')
+elif name=='Manjunath':
+ print('husband of Kavya')
+elif name=='Chirag':
+  print('son of Manjunath and Kavya')  
+else:
+ print('no match found')
+
+    

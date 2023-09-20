@@ -1,0 +1,11 @@
+try:
+    age=int(input("enter the age: "))
+    if age<18:
+        print('he is not eligible to caste vote coz he is now ',age)
+except ValueError as V:
+    print("Given value is not a correct format to check")
+    print(V)
+#else:
+    #print("he can vote for this elecion")
+finally:
+    print("the assignemt given for me is complted")

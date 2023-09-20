@@ -1,0 +1,12 @@
+#in a park, playing gaint wheel
+age=int(input("entere the age of person in years: "))
+if age<= 18:
+  print("he can play, but height should be above 4 feet. ") 
+  height=int(input("entere the height of person in feet: "))
+  if height<=4:
+     print("he cant play, coz of short age")
+  else:
+    print('he can play')
+
+else:
+  print("he is fit to play")  

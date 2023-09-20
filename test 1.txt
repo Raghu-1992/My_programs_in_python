@@ -1,0 +1,107 @@
+class Add:
+ a=int(self,10,20)
+print int("10+20"
+
+self.10
+self.20
+
+
+fibnocci
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+***Settings***
+Library 	SeleniumLibrary
+Library 	Date and Time
+Resource	../file location
+
+***Varibales***
+${username} 	xpath
+${Pasword}	      xpath
+${product Name} 	xpath
+
+***Test Cases***
+Login for the old user
+Open Browser	Chrome	www.amazon.com
+maximize browser
+Input Text 	${username.Raghavendra}
+Input Text  ${Pasword.Raghavendra@12345}
+Input Text 	${username.Mobile Phone}
+.
+.
+.
+.
+
+
+
+***Keywords***
+Login with customer user
+Select a product which you want to add to cart
+
+test 1.py
+robot test1.robot
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

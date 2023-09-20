@@ -1,0 +1,23 @@
+***settings***
+library selenium2library
+library date and time
+library collections
+resource ..\\ to access keyword file
+resource ..\\ to access test cases file
+resource ..\\ to access data sheet
+
+***keywords***
+ANY USER DEFINED KEYWORDS
+To login to GMAIL PAGE
+
+***test cases***
+To login to GMAIL PAGE
+
+  OPEN BROWSER  URL CHROME
+  CLICK ELEMENT XPATH USERNAME
+  CLICK ELEMENT XPATHJ PASSWORD
+  CLICK ELEMENT  XPATH 
+
+
+***varibales***
+varibales we use to access credentials or any data

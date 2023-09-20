@@ -1,0 +1,7 @@
+age=int(input("enter your present age: "))
+years_left=90-age
+months_left=years_left*12
+days_left=years_left*365
+time_left=days_left*24
+
+print('Raghavendra has' +str(years_left) + ' years', str(months_left) + ' months', str(days_left)+ ' days', str(time_left)+ ' hours left')

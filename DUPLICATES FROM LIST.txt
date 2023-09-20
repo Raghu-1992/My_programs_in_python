@@ -1,0 +1,20 @@
+# Get a list of numbers from the user
+input_list = input("Enter a list of numbers separated by spaces: ").split()
+numbers = [int(num) for num in input_list]
+
+# Create an empty set to store duplicate numbers
+duplicate_set = set()
+unique_set = set()
+
+# Iterate through the numbers and check for duplicates
+for num in numbers:
+    if num in unique_set:
+        duplicate_set.add(num)
+    else:
+        unique_set.add(num)
+
+# Print the duplicate numbers
+if len(duplicate_set) > 0:
+    print("Duplicate numbers:", duplicate_set)
+else:
+    print("No duplicate numbers found.")
