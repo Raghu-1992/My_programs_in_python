@@ -1,0 +1,6 @@
+def replace_word():
+    string="hi, how are you raghavendra, where are you raghavendra, when are you coming to Bangalore"
+    replace_word=input("enter which word you want to remove from string: ")
+    replacement_word=input("enter which word you want to see in new string: ")
+    print(string.replace(replace_word,replacement_word))
+replace_word()

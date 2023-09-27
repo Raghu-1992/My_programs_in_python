@@ -1,0 +1,13 @@
+list1 = input("enter any list: ")
+
+min_val = list1[0]
+max_val = list1[0]
+
+for element in list1:
+  if element < min_val:
+    min_val = element
+  elif element > max_val:
+    max_val = element
+
+print(f"The minimum value in the list is {min_val}.")
+print(f"The maximum value in the list is {max_val}.")

@@ -1,0 +1,4 @@
+numbers=[12,21,32,31,12,22]
+for i in numbers:
+    if i % 10 == 2:
+      print(i)

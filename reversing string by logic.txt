@@ -1,0 +1,11 @@
+string = "Hello, world!"
+
+# Create an empty string to store the reversed string.
+reversed_string = ""
+
+# Iterate over the original string in reverse order, appending each character to the reversed string.
+for i in range(len(string) - 1, -1, -1):
+  reversed_string += string[i]
+
+# Print the reversed string.
+print(reversed_string)

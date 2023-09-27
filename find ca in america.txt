@@ -1,0 +1,4 @@
+list='america','japan','mecaco','califormia','indica'
+for i in list:
+    if i.find('ca')>-1:
+        print(i)

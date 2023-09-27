@@ -1,0 +1,7 @@
+string='Hi, Good evening, I am satheesh, I am from venkatagirikota'
+list=['a','e','i','o','u']
+count=0
+for i in string:
+    if i in list:
+        count+=1
+        print(f'the number of vowels in {string} is',count)
