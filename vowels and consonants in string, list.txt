@@ -1,0 +1,31 @@
+#to print Vowels
+string = 'Hi, I am Satheesh, from Venkatagirikota'
+vowels = 'aeiou'
+vowel_counts = {}
+
+for char in string:
+  if char not in vowels:
+    if char in vowel_counts:
+      vowel_counts[char] += 1
+    else:
+      vowel_counts[char] = 1
+
+print(vowel_counts)
+
+
+#to print consonants
+string = 'Hi, I am Satheesh, from Venkatagirikota'
+vowels = 'aeiou'
+vowel_counts = {}
+
+for char in string:
+  if char in vowels:
+    if char in vowel_counts:
+      vowel_counts[char] += 1
+    else:
+      vowel_counts[char] = 1
+
+print(vowel_counts)
+
+
+

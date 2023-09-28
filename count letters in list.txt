@@ -1,0 +1,10 @@
+list = 'Hi, I am Raghavendra, from Biajpur'
+unique_numbers = {}
+for i in list:
+  if i not in unique_numbers:
+    unique_numbers[i] = 1
+  else:
+    unique_numbers[i] += 1
+print(len(list))
+dict1=sorted(unique_numbers.items())
+print(dict1)
