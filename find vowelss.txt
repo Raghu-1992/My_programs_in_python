@@ -1,9 +1,9 @@
-#50.how to find non vowells in given string:
-string="Ragahvendra from India"
+#49.how to find vowels in given string:-
+string="hii welcome to bengalore"
 vowels="aeiou"
 count={}
 for i in string:
-    if i not in vowels:
+    if i in vowels:
         if i in count:
             count[i]+=1
         else:

@@ -1,0 +1,4 @@
+#29.python program to get a current time
+import datetime
+currenttime=datetime.datetime.now()
+print("currenttime:",currenttime.time())

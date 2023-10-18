@@ -1,0 +1,10 @@
+n = input("enter any sentence: ")
+words = n.split()
+counts = {}
+
+
+for word in words:
+    counts[word] = len(word)
+
+for word, char_count in counts.items():
+    print(f"{word.capitalize()}: {char_count}", end=", ")

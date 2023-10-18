@@ -1,0 +1,6 @@
+#30.pyton program to print dictionary keys and values separate 
+d={"fcnedjk":"sath","add":"djjjek","age":32,"fyuj":"dfyh"}
+keys=d.keys()
+values=d.values()
+print(keys)
+print(values)

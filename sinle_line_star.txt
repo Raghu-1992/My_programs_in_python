@@ -1,0 +1,11 @@
+#66
+n=int(input("enter number here:"))
+for i in range(n):
+    print("*")
+
+
+*
+*
+*
+*
+*

@@ -1,0 +1,4 @@
+#23.python program to covert the string small to capital
+str1="Ragahvendra A M"
+str2=str1.upper()
+print(str2)

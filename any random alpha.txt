@@ -1,0 +1,5 @@
+#27.python program choce one random number
+import random
+l=["apple","banana","orange"]
+l1=random.choice("banana")
+print(l1)

@@ -1,0 +1,4 @@
+#21.how to replace string
+text="Raghavendra,hello,welcom"
+result=text.replace("hello","hii")
+print(result)

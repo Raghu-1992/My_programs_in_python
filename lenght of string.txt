@@ -1,0 +1,3 @@
+#20.how to find string length
+str1="Raghavendra A M"
+print(len(str1))

@@ -1,0 +1,10 @@
+x = 234.78
+y = 4232345.3455
+
+def remove_dot(x):
+  x = str(x)
+  x = x.replace(".", "")
+  return int(x)
+
+print(remove_dot(x))
+print(remove_dot(y))

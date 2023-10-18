@@ -1,0 +1,4 @@
+#45.how to update dictionary values or keys:
+dict={"a":2,"b":3,"c":5,"d":2}
+dict.update({"a":4})
+print(dict)

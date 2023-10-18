@@ -1,0 +1,33 @@
+#53.how to make simple calculater using python:
+def add(x,y):
+    return x+y 
+def subtract(x,y):
+    return x-y 
+def multiply(x,y):
+    return x*y 
+def divide(x,y):
+    return x/y  
+print("select operator")
+print("a,addition")
+print("2.subtraction")
+print("3.multipliction")
+print("4.division")
+while True:
+    choice=input("choce choice(1/2/3/4:)")
+    if choice in("1","2","3","4"):
+        try:
+            num1=int(input("enter first number here:"))
+            num2=int(input("enter second number here:"))
+        except valueerroe:
+            print("invalid number pleas enter valid number:")
+            continue 
+        if choice=="1":
+            print(num1,"+",num2,"=",add(num1,num2))
+        elif choice=="2":
+            print(num1,"-",num2,"=",subtract(num1,num2))
+        elif choice=="3":
+            print(num1,"*",num2,"=",multiply(num1,num2))
+        elif choice=="4":
+            print(num1,"/",num2,"=",divide(num1,num2))
+        
+        

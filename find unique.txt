@@ -1,0 +1,5 @@
+#39.how to find unique values in list
+s="sdfgjnetsfadd dykwagq sathdfte fdoejeek gdye9oejehg"
+s1=set(s)
+s2=" ".join(s1)
+print(s2)

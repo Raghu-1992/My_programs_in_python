@@ -1,0 +1,7 @@
+#44.how to remove duplicate numbers:
+l=[2,4,6,7,5,4,3,1,8,6,3]
+empty=[]
+for i in l:
+    if i not in empty:
+        empty.append(i)
+        print(i,end=" ")

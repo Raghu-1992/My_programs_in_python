@@ -1,0 +1,5 @@
+#37.how to add two dictionrys
+d={"names":"sathesh","age":23}
+d1={"rno":39,"address":"chittoor"}
+d1.update(d)
+print(d1)

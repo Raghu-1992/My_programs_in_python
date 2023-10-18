@@ -1,0 +1,7 @@
+#17.decimal number to hexadecimal number
+def hexadecimal(n):
+    if n>1:
+        hexadecimal(n//16)
+    print(n%16,end=" ")
+num=int(input("enter number here:"))
+hexa=hexadecimal(num)

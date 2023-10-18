@@ -1,0 +1,4 @@
+#43.how to print order in dictionary:
+sample_dict={'d':4,'b':2,'a':1,'c':3}
+x=sorted(sample_dict.items())
+print(x)

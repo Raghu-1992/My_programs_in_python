@@ -1,0 +1,12 @@
+#13.python programing to check the number is armstrong are not
+num=int(input("enter armstrong number here:"))
+sum=0
+temp=num
+while temp>0:
+    digit=temp%10
+    sum+=digit**3
+    temp//=10
+if num==sum:
+    print("this is armstrong")
+else:
+    print("this is not a armstrong")

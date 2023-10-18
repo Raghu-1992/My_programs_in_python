@@ -1,0 +1,11 @@
+List=[2,5,8,1,4,15]
+count=0
+a=min(List)
+b=max(List)
+for i in range(a,b+1):
+    if i not in List:
+        print(i)
+        count+=1
+print(f"total missing from numbers from list {List} are ",count)
+
+        

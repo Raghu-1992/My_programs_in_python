@@ -1,0 +1,7 @@
+#19.python program to check the palindrom or not
+str1=input("enter a string here:")
+rev=str1[::-1]
+if str1==rev:
+    print("this is palindrom")
+else:
+    print("this is not a palindrom")

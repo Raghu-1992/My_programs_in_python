@@ -1,0 +1,7 @@
+#16.decimal to octol number convertion
+def octol(n):
+    if n>1:
+        octol(n//8)
+    print(n%8,end=" ")
+num=int(input("enter number here:"))
+oct=octol(num)

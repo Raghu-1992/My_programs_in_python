@@ -1,0 +1,5 @@
+#47.how to find list,tuple,set storage:-
+import sys
+list=[1,2,3,4,5,6]
+list1=sys.getsizeof(list)
+print(list1)

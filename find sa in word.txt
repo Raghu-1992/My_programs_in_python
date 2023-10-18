@@ -1,0 +1,5 @@
+#9.python program to pick randamlly one charecter names
+names=["Raghavendra","kumar","raghavendra","santhosh"]
+for i in names:
+    if i.find("sa")>-1:
+        print(i)

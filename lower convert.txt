@@ -1,0 +1,4 @@
+#24.python program to covert the string capital to small
+str1="Raghavendra A M"
+str2=str1.lower()
+print(str2)
